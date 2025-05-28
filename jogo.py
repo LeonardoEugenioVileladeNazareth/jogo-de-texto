@@ -23,7 +23,7 @@ def start_game():
     continuar = entrada_templo(player)
 
     print("\n=== FIM DO JOGO ===")
-    print(f"🎯 Sua pontuação final: {player.score}")
+    print(f"Sua pontuação final: {player.score}")
 
 
 def entrada_templo(player):
@@ -60,8 +60,8 @@ def corredor(player):
 
 
 def dialogo_npc():
-    print("\n👻 Espírito: 'Nem tudo é o que parece... Às vezes, a luz revela o caminho.'")
-    print("👻 Espírito: 'Ah, e cuidado com o que pisa. Nem todos os caminhos levam à saída.'")
+    print("\nEspírito: 'Nem tudo é o que parece... Às vezes, a luz revela o caminho.'")
+    print("Espírito: 'Ah, e cuidado com o que pisa. Nem todos os caminhos levam à saída.'")
 
 
 def sala_espelhos(player):
@@ -77,15 +77,15 @@ def sala_espelhos(player):
 
         if player.has_item("tocha"):
             print("A tocha ilumina uma passagem secreta que leva à saída.")
-            print("✨ FINAL BOM: Você escapou com sabedoria e um mapa antigo!")
+            print("FINAL BOM: Você escapou com sabedoria e um mapa antigo!")
             player.add_score(50)
         else:
             print("Você avança na escuridão, mas eventualmente acha a saída às cegas.")
-            print("✨ FINAL NEUTRO: Sobreviveu, mas perdeu relíquias valiosas.")
+            print("FINAL NEUTRO: Sobreviveu, mas perdeu relíquias valiosas.")
             player.add_score(20)
     else:
         print("Nada acontece... Você fica preso na sala para sempre.")
-        print("💀 FINAL RUIM: Preso para sempre.")
+        print("FINAL RUIM: Preso para sempre.")
         player.add_score(-10)
 
     return False
@@ -100,7 +100,7 @@ def sala_serpente(player):
 
     if escolha == "1":
         print("Você pisa em um osso seco... a serpente acorda e te devora.")
-        print("💀 FINAL RUIM: Morto pela serpente.")
+        print("FINAL RUIM: Morto pela serpente.")
         player.add_score(-20)
     else:
         if player.has_item("tocha"):
@@ -109,7 +109,7 @@ def sala_serpente(player):
             player.add_score(25)
         else:
             print("Você está desarmado e é devorado.")
-            print("💀 FINAL RUIM: Morto pela serpente.")
+            print("FINAL RUIM: Morto pela serpente.")
             player.add_score(-15)
 
     return False
