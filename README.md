@@ -31,10 +31,9 @@ O jogo roda no terminal e responde imediatamente às suas escolhas
 
 Funcionalidades Implementadas
 Funcionalidade / Descrição
- Navegação / Sistema de cenas e escolhas para mudar de local
- Múltiplos finais / Final bom, neutro e ruim com base nas decisões do jogador
- Enigma / Enigma lógico na sala dos espelhos para desbloquear a saída
- Diálogo com NPC / Espírito antigo que dá dicas importantes
- Inventário / Itens como "tocha" afetam o resultado das cenas
- Sistema de Pontuação / Pontuação dinâmica com base nas ações e decisões do jogador
-juninhotester007@gmail.com
+ Navegação: Sistema de cenas e escolhas para mudar de local.
+ Múltiplos finais: Final bom, neutro e ruim com base nas decisões do jogador.
+ Enigma:Enigma lógico na sala dos espelhos para desbloquear a saída.
+ Diálogo com NPC:Espírito antigo que dá dicas importantes.
+ Inventário:Itens como "tocha" afetam o resultado das cenas.
+ Sistema de Pontuação:.Pontuação dinâmica com base nas ações e decisões do jogador.
